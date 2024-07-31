@@ -341,6 +341,7 @@ MonoBehaviour:
   target: {x: 180, y: 20, z: 0}
   vfx: {fileID: 1337198075554910, guid: 25c7aa9ad705fe143a4d71c1c8deb7d4, type: 3}
   shield: {fileID: 7482721337623887731}
+  shieldMaterial: {fileID: 0}
   starshipChildren: {fileID: 0}
 --- !u!65 &935311125100943776
 BoxCollider:

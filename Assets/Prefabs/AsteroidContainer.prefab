@@ -199,5 +199,8 @@ MonoBehaviour:
   targetTag: Bullet
   powerUpPrefabs:
   - {fileID: 6764567789997268000, guid: b45ecbf29a2f56b42af32dcecfd3a894, type: 3}
+  - {fileID: 8286351388116187319, guid: bbc4e7f506ccfcd4497bdc53dac47a3f, type: 3}
+  - {fileID: 3784394316532840901, guid: b8c8617cb48a6974385998a8cf954f73, type: 3}
   asteroid: {fileID: 7529845832603308838}
   killEvent: {fileID: 11400000, guid: 78b3928c1e3cc7b42bb9612b95e1844b, type: 2}
+  scoreEvent: {fileID: 0}

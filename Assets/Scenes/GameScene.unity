@@ -4285,7 +4285,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2107639800}
   - component: {fileID: 2107639799}
-  - component: {fileID: 2107639801}
   m_Layer: 0
   m_Name: Score Event
   m_TagString: Untagged
@@ -4322,34 +4321,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 900521836}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2107639801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2107639798}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec4c4ed6c66a80647b1c792aad346b8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  eventInvoked: {fileID: 11400000, guid: 78b3928c1e3cc7b42bb9612b95e1844b, type: 2}
-  onEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2107639799}
-        m_TargetAssemblyTypeName: ScoreEvent, Assembly-CSharp
-        m_MethodName: AddScore
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 25
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &81024461136841101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6240,6 +6211,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7482721337623887731, guid: cfcbd970a5a361648a34caa721b87ec9,
+        type: 3}
+      propertyPath: m_Name
+      value: PowerUp_Sphere Shield
       objectReference: {fileID: 0}
     - target: {fileID: 7482721337623887731, guid: cfcbd970a5a361648a34caa721b87ec9,
         type: 3}
