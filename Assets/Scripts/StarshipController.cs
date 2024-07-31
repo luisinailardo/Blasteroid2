@@ -19,7 +19,6 @@ public class StarshipController : MonoBehaviour
     [SerializeField] private Vector3 target;
     [SerializeField] private GameObject vfx;
     [SerializeField] private GameObject shield;
-    [SerializeField] private Color shieldColor;
     [SerializeField] private GameObject starshipChildren;
     private Vector3 leftLoopPoint, rightLoopPoint;
     private Vector2 moveInput;
@@ -144,7 +143,11 @@ public class StarshipController : MonoBehaviour
     public void SetShield(int i)
     {
         shieldHp += i;
-        shield.GetComponent<MeshRenderer>().material.SetColor("_Color", Color.red * 20);
-        Debug.Log(shield.GetComponent<MeshRenderer>().material.color);
+        Renderer rend = GameObject.Find("PowerUp_Sphere Shield").GetComponent<Renderer>();
+        Debug.Log(rend);
+        Debug.Log(rend.material);
+        Debug.Log(rend.material.shader);
+        rend.material.shader = Shader.Find("ShaderGraphs/PickUp");
+        rend.material.SetColor("_BaseColor", Color.black);
     }
 }

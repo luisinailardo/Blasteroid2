@@ -6171,6 +6171,18 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1124186886059352727, guid: cfcbd970a5a361648a34caa721b87ec9,
         type: 3}
+      propertyPath: vfx
+      value: 
+      objectReference: {fileID: 1337198075554910, guid: ca603779d164dc2439eab36fc293b592,
+        type: 3}
+    - target: {fileID: 1124186886059352727, guid: cfcbd970a5a361648a34caa721b87ec9,
+        type: 3}
+      propertyPath: shieldColor
+      value: 
+      objectReference: {fileID: -6465566751694194690, guid: 303728b19cdd08443acd1eaa37103f88,
+        type: 3}
+    - target: {fileID: 1124186886059352727, guid: cfcbd970a5a361648a34caa721b87ec9,
+        type: 3}
       propertyPath: shieldMaterial
       value: 
       objectReference: {fileID: 2100000, guid: a2fecb4bd4ef9f04c96961065d6be53a, type: 2}

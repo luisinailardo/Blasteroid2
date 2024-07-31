@@ -132,8 +132,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 12
   targetTag: Enemy
-  killEvent: {fileID: 11400000, guid: 78b3928c1e3cc7b42bb9612b95e1844b, type: 2}
-  vfx: {fileID: 1025285306637258, guid: d8f0099df63275647a8bcf646df1ca00, type: 3}
+  vfx: {fileID: 1025285306637258, guid: fa925fe16c271b746a9921e3118b799b, type: 3}
   audioClip: {fileID: 8300000, guid: 51d58e6077cb1e04b92712a0a69510a7, type: 3}
   audioSource: {fileID: 0}
 --- !u!54 &-8558393889544652503
