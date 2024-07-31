@@ -30,7 +30,6 @@ public class MenuFunctions : MonoBehaviour
         clickSound.Play();
         yield return new WaitForSeconds(0.25f);
         SceneManager.LoadScene(index);
-
     }
 
 

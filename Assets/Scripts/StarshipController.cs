@@ -61,8 +61,8 @@ public class StarshipController : MonoBehaviour
             transform.position = new Vector3(leftLoopPoint.x, transform.position.y, 0);
         if (transform.position.x < -loopDistanceHorizontal)
             transform.position = new Vector3(rightLoopPoint.x, transform.position.y, 0);
-        if (transform.position.y > 10)
-            transform.position = new Vector3(transform.position.x, 10, 0);
+        if (transform.position.y > 15)
+            transform.position = new Vector3(transform.position.x, 15, 0);
         if (transform.position.y < 0)
             transform.position = new Vector3(transform.position.x, 0, 0);
 
